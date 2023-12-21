@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+</head>
+<body>
+    <h1>Upload CSV or Excel File</h1>
+    <form method="POST" action="/create" enctype="multipart/form-data">
+        <p><input type="file" name="file" accept=".csv, .xls, .xlsx"></p>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
